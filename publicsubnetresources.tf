@@ -1,3 +1,4 @@
+# compute instance to have web server
 resource "google_compute_instance" "defaultweb" {
   name         = "web-server"
   machine_type = "e2-micro"
