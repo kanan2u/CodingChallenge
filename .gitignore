@@ -1,0 +1,13 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Exclude .tfvars files
+*.tfvars
+
+
+# Ignore google key file used for connection
+delta-tuner-344409-3a0e74d1df45.json
